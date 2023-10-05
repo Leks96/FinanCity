@@ -1,0 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+package-lock.json
+/node_modules
+/.pnp
+.pnp.js
+/.cert
+# testing
+/coverage
+.history
+# production
+/
+/bin
+/build
+/test-ledger
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.development
+.env.test.local
+.env.production.local
+.devcert
+*:Zone.Identifier
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea
+.vscode
+.history
