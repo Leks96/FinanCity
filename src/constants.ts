@@ -1,15 +1,15 @@
 import tw from 'twin.macro'
 
 export const LITEPAPER_ADDRESS = 'https://docs.finan-city.vercel.app'
-/* export const SOCIAL_MEDIAS: { [key: string]: string } = {
-  discord: 'https://discord.gg/cDEPXpY26q',
-  medium: 'https://medium.com/goosefx',
-  telegram: 'https://www.t.me/goosefx',
-  twitter: 'https://www.twitter.com/GooseFX1',
-  nestquest: 'https://nestquest.io',
+export const SOCIAL_MEDIAS: { [key: string]: string } = {
+  discord: 'https://discord.gg',
+  medium: 'https://medium.com/',
+  telegram: 'https://www.t.me/',
+  twitter: 'https://www.twitter.com/',
+  nestquest: 'https://',
   nftCreatorForm:
-    'https://docs.google.com/forms/d/e/1FAIpQLSeg1OzYlHdNqWiAEPl2QUZj7XwLvEpXAkGtWd4-H9SyyQe1DQ/viewform'
-}*/
+    'https://docs.google.com/forms/'
+}
 
 export const SOLSCAN_BASE = 'https://api.solscan.io'
 
