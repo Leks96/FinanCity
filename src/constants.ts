@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 
-export const LITEPAPER_ADDRESS = 'https://docs.goosefx.io'
-export const SOCIAL_MEDIAS: { [key: string]: string } = {
+export const LITEPAPER_ADDRESS = 'https://docs.finan-city.vercel.app'
+/* export const SOCIAL_MEDIAS: { [key: string]: string } = {
   discord: 'https://discord.gg/cDEPXpY26q',
   medium: 'https://medium.com/goosefx',
   telegram: 'https://www.t.me/goosefx',
@@ -9,7 +9,7 @@ export const SOCIAL_MEDIAS: { [key: string]: string } = {
   nestquest: 'https://nestquest.io',
   nftCreatorForm:
     'https://docs.google.com/forms/d/e/1FAIpQLSeg1OzYlHdNqWiAEPl2QUZj7XwLvEpXAkGtWd4-H9SyyQe1DQ/viewform'
-}
+}*/
 
 export const SOLSCAN_BASE = 'https://api.solscan.io'
 
