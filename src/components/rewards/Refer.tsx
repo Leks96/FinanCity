@@ -20,12 +20,12 @@ const ReferAndEarn: FC = () => (
     >
       To generate a referral link, first connect your wallet and create a trader account at
       <a
-        href={'https://app.goosefx.io/trade'}
+        href={'https://finan-city.vercel.app/trade'}
         target={'_blank'}
         rel={'noreferrer'}
         css={[tw` underline text-blue-1 dark:text-white mx-1`]}
       >
-        app.goosefx.io/trade
+        https://finan-city.vercel.app/trade
       </a>
       by depositing funds. Afterwards you will be able to generate a referral URL to share.
     </p>
