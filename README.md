@@ -6,11 +6,6 @@
     <span> | </span>
     <a href="https://docs.finan-city.vercel.app">Docs</a>
     <span> | </span>
-    <a href="https://discord.com/channels/833693973687173121/833742620371058688">Discord</a>
-    <span> | </span>
-    <a href="https://www.t.me/finan-city">Telegram</a>
-    <span> | </span>
-    <a href="https://medium.com/finan-city">Medium</a>
   </h4>
   <br />
   <br />
