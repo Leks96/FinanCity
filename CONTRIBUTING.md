@@ -1,6 +1,6 @@
 # Contributing Docs
 
-To run the environment locally for developent, you will need to get the environment variables from a team member. Once you have received these variables, follow the steps on the [README.md](https://github.com/GooseFX1/gfx-web-app) in the root of the `gfx-web-app` repo.
+To run the environment locally for developent, you will need to get the environment variables from a team member. Once you have received these variables, follow the steps on the [README.md](https://github.com/Leks96/FinanCity) in the root of the `FinanCity` repo.
 
 ## Dev Cycles
 
@@ -13,21 +13,21 @@ In ClickUp, _“UI: Farm - Create V2 Header”_ becomes _“Farm - Create V2 Hea
 
 **Branch Format**
 
-- dev (origin/HEAD)
+- main (origin/HEAD)
 - release/staging
 - release/prod
 
-The `dev` branch is the default branch of origin (`origin/HEAD`) of the project and therefor, the history of this branch is important and should maintain integrity.
+The `main` branch is the default branch of origin (`origin/HEAD`) of the project and therefor, the history of this branch is important and should maintain integrity.
 
-The `release/prod` and `release/staging` will be share a base with dev and will be set to a given commit hash on the `dev`/`origin/HEAD`.
+The `release/prod` and `release/staging` will be share a base with dev and will be set to a given commit hash on the `main`/`origin/HEAD`.
 
-All changes to `dev` will be commited on working branches, ex: `farm-<update>`. These branches will be created off of `dev` where a rebase to `origin/dev` throughout the life of the branch will occur. These working branches will be deleted after pull requests; ideally, this will result in a closed-loop pattern. The merge strategy will be a merge commit which will create the close-loop pattern.
+All changes to `main` will be commited on working branches, ex: `farm-<update>`. These branches will be created off of `main` where a rebase to `origin/main` throughout the life of the branch will occur. These working branches will be deleted after pull requests; ideally, this will result in a closed-loop pattern. The merge strategy will be a merge commit which will create the close-loop pattern.
 
 #### Branch Dynamic URLs
 
-Optionally, branches prefixed with `feature/` will auto build and deploy to a url for testing the updates represented in that merge commit. This allows for testing before a merge to `dev`.
+Optionally, branches prefixed with `feature/` will auto build and deploy to a url for testing the updates represented in that merge commit. This allows for testing before a merge to `main`.
 
-When the branch is complete, use Github to merge it into `dev` via PR after looking over the dif **or** request a review from a team member.
+When the branch is complete, use Github to merge it into `main` via PR after looking over the dif **or** request a review from a team member.
 
 ### Raising a Pull Request
 
@@ -67,7 +67,7 @@ Each PR **MUST**:
 
 #### Adding Tokens To Farm Page
 
-1. `git checkout dev`
+1. `git checkout main`
 2. `git checkout -b add-tokens`
 3. ./src/context/crypto.tsx add token usdc pair to fetch current price of token from coingeko or other provider
 4. ./src/web3/ids.ts in sslPool object, add mint address in the file and the decimal supported (How to find the decimals supported for token ?)
@@ -82,5 +82,5 @@ Environment variables are stored in HashiCorp Vault and usually require running 
 To create an release with updated env vars:
 
 - change env var value in HashiCorp Vault (speak with a team member for access)
-- in Terraform Cloud, generate a new run of `infra` manually or via merge commit to the [infra repo](https://github.com/GooseFX1/gfx-infra/pulls). This will set the new values
+- in Terraform Cloud, generate a new run of `infra` manually or via merge commit to the [infra repo](https://github.com/Leks96/FinanCity-infra/pulls). This will set the new values
 - in AWS, go to Amplify/gfx-app, select `release/staging` or `release/prod`, and click 'Redeploy this version'. This will run a new build with refreshed values
