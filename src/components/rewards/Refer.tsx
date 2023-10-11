@@ -47,7 +47,7 @@ const ReferAndEarn: FC = () => (
         Go to our
         <a
           css={[tw`underline text-blue-1 dark:text-white ml-1`]}
-          href={'https://docs.finan-city.vercel.app/features/rewards-programs/referral-program'}
+          href={'https://finan-city.vercel.app'}
           target={'_blank'}
           rel={'noreferrer'}
         >
@@ -90,7 +90,7 @@ export const ReferRightPanel: FC = () => {
           message: (
             <div>
               Please bear with us and try again, or if the error continues
-              <a css={[tw`mx-1 underline`]} href={'https://docs.finan-city.vercel.app/'} target={'_blank'} rel={'noreferrer'}>
+              <a css={[tw`mx-1 underline`]} href={'https://finan-city.vercel.app/'} target={'_blank'} rel={'noreferrer'}>
                 go to docs
               </a>
             </div>
