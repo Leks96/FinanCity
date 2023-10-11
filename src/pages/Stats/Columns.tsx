@@ -277,7 +277,7 @@ export const HowToEarn: FC<{
               />
               <div className="subText">
                 {screenType === 2
-                  ? 'List your NFT’s exclusively on Finan City, the more you list the more points you will earn.'
+                  ? 'List your NFT’s exclusively on Finan City, list to earn more points.'
                   : 'Your PnL% reflects your return on investment, calculated using the current market' +
                     'price of your assets and your net deposits.'}
               </div>
@@ -306,7 +306,7 @@ export const HowToEarn: FC<{
               />
               <div className="subText">
                 {screenType === 2
-                  ? 'Bid for NFT’s exclusively on Finan City, the more you bid or accept bids the more points you earn.'
+                  ? 'Bid for NFT’s exclusively on Finan City, bid or accept bids and earn more points.'
                   : 'Earn loyalty points based on your trading volume and frequency.' +
                     "If you don't make at least 2 trades within a week, your loyalty score will decay by 10%"}
               </div>
@@ -331,8 +331,8 @@ export const HowToEarn: FC<{
               <div className="subText">
                 {screenType === 2 ? (
                   <div className={mode === 'lite' ? 'space' : ''}>
-                    Purchase NFTs directly on Finan City to earn points, more closer to the floor, more points you
-                    earn.
+                    Purchase NFTs directly on Finan City to earn points, more closer to the floor,
+                    more points you earn.
                   </div>
                 ) : (
                   'Earn points with each trade. The more loyal you are and the higher your PnL%, ' +
@@ -368,8 +368,8 @@ export const HowToEarn: FC<{
               )}
               <div className="subText">
                 {screenType === 2
-                  ? 'Maintain consistent activity on Finan City to improve your loyalty score and stay within the top 50' +
-                    'users in 24H awards a daily boost.'
+                  ? 'Maintain consistent activity on Finan City to improve your loyalty score and' +
+                    'stay within the top 50 users in 24H awards a daily boost.'
                   : 'Top 20 traders are eligible to claim rewards every 14 days. Trade your' +
                     'way to the top for the main reward.'}
               </div>
