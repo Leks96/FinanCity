@@ -129,7 +129,7 @@ export const TermsOfService: FC<{
 
   return (
     <TOS_MODAL
-      title={<span tw="text-average font-semibold">GooseFX Terms of Service</span>}
+      title={<span tw="text-average font-semibold">FinanCity Terms of Service</span>}
       centerTitle
       setVisible={changeTOSState}
       visible={toShow}
@@ -147,10 +147,10 @@ export const TermsOfService: FC<{
               (defined below). These Terms also include any guidelines, announcements, additional terms, policies,
               and disclaimers made available or issued by us from time to time. These Terms constitute a binding
               and enforceable legal contract between Goose Digital Limited and its affiliates (“Company”,
-              “GooseFX”, “we”, “us”) and you, an end user of the services (“you” or “User”) at
-              https://www.goosefx.io/ (“Services”). By accessing, using or clicking on our website (and all related
-              subdomains) or its mobile applications (“Website”) or accessing, using or attempting to use the
-              Services, you agree that you have read, understood, and to are bound by these Terms and that you
+              “FINANCITY”, “we”, “us”) and you, an end user of the services (“you” or “User”) at
+              https://www.FINANCITY.io/ (“Services”). By accessing, using or clicking on our website (and all
+              related subdomains) or its mobile applications (“Website”) or accessing, using or attempting to use
+              the Services, you agree that you have read, understood, and to are bound by these Terms and that you
               comply with the requirements listed herein. If you do not agree to all of these Terms or comply with
               the requirements herein, please do not access or use the Website or the Services. In addition, when
               using some features of the Services, you may be subject to specific additional terms and conditions
@@ -228,7 +228,7 @@ export const TermsOfService: FC<{
               sentence, you may NOT: use our Website or use the Services in any dishonest or unlawful manner, for
               fraudulent or malicious activities, or in any manner inconsistent with these Terms; violate
               applicable laws or regulations in any manner; infringe any proprietary rights, including but not
-              limited to copyrights, patents, trademarks, or trade secrets of GooseFX; use our Website or use the
+              limited to copyrights, patents, trademarks, or trade secrets of FINANCITY; use our Website or use the
               Services to transmit any data or send or upload any material that contains viruses, Trojan horses,
               worms, time-bombs, keystroke loggers, spyware, adware, or any other harmful programmes or computer
               code designed to adversely affect the operation of any computer software or hardware; use any deep
@@ -252,7 +252,7 @@ export const TermsOfService: FC<{
               programs to interfere with the normal operation of any transactions of the Website or Services, or
               any other person’s use of the Website or Services; or forge headers, impersonate, or otherwise
               manipulate identification, to disguise your identity or the origin of any messages or transmissions
-              you send to GooseFX or the Website. By accessing the Services, you agree that we have the right to
+              you send to FINANCITY or the Website. By accessing the Services, you agree that we have the right to
               investigate any violation of these Terms, unilaterally determine whether you have violated these
               Terms, and take actions under relevant regulations without your consent or prior notice.
             </p>
@@ -260,11 +260,11 @@ export const TermsOfService: FC<{
 
             <h3>Termination</h3>
             <p>
-              GooseFX may terminate, suspend, or modify your access to Website and/or the Services, or any portion
-              thereof, immediately and at any point, at its sole discretion. GooseFX will not be liable to you or
-              to any third party for any termination, suspension, or modification of your access to the Services.
-              Upon termination of your access to the Services, these Terms shall terminate, except for those
-              clauses that expressly or are intended to survive termination or expiry.
+              FINANCITY may terminate, suspend, or modify your access to Website and/or the Services, or any
+              portion thereof, immediately and at any point, at its sole discretion. FINANCITY will not be liable
+              to you or to any third party for any termination, suspension, or modification of your access to the
+              Services. Upon termination of your access to the Services, these Terms shall terminate, except for
+              those clauses that expressly or are intended to survive termination or expiry.
             </p>
             <br />
 
@@ -275,23 +275,23 @@ export const TermsOfService: FC<{
               RELIED UPON ANY OTHER STATEMENT OR AGREEMENT, WHETHER WRITTEN OR ORAL, WITH RESPECT TO YOUR USE AND
               ACCESS OF THE SERVICES. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, SPECIFICALLY DISCLAIMS ANY
               IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND/OR
-              NON-INFRINGEMENT. GOOSEFX DOES NOT MAKE ANY REPRESENTATIONS OR WARRANTIES THAT ACCESS TO THE WEBSITE,
-              ANY PART OF THE SERVICES, INCLUDING MOBILE SERVICES, OR ANY OF THE MATERIALS CONTAINED THEREIN, WILL
-              BE CONTINUOUS, UNINTERRUPTED, TIMELY, OR ERROR-FREE AND WILL NOT BE LIABLE FOR ANY LOSSES RELATING
-              THERETO. GOOSEFX DOES NOT REPRESENT OR WARRANT THAT THE WEBSITE, THE SERVICES OR ANY MATERIALS OF
-              GOOSEFX ARE ACCURATE, COMPLETE, RELIABLE, CURRENT, ERROR-FREE, OR FREE OF VIRUSES OR OTHER HARMFUL
-              COMPONENTS. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NONE OF GOOSEFX OR ITS AFFILIATES AND
-              THEIR RESPECTIVE SHAREHOLDERS, MEMBERS, DIRECTORS, OFFICERS, EMPLOYEES, ATTORNEYS, AGENTS,
-              REPRESENTATIVES, SUPPLIERS OR CONTRACTORS WILL BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL,
+              NON-INFRINGEMENT. FINANCITY DOES NOT MAKE ANY REPRESENTATIONS OR WARRANTIES THAT ACCESS TO THE
+              WEBSITE, ANY PART OF THE SERVICES, INCLUDING MOBILE SERVICES, OR ANY OF THE MATERIALS CONTAINED
+              THEREIN, WILL BE CONTINUOUS, UNINTERRUPTED, TIMELY, OR ERROR-FREE AND WILL NOT BE LIABLE FOR ANY
+              LOSSES RELATING THERETO. FINANCITY DOES NOT REPRESENT OR WARRANT THAT THE WEBSITE, THE SERVICES OR
+              ANY MATERIALS OF FINANCITY ARE ACCURATE, COMPLETE, RELIABLE, CURRENT, ERROR-FREE, OR FREE OF VIRUSES
+              OR OTHER HARMFUL COMPONENTS. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NONE OF FINANCITY OR
+              ITS AFFILIATES AND THEIR RESPECTIVE SHAREHOLDERS, MEMBERS, DIRECTORS, OFFICERS, EMPLOYEES, ATTORNEYS,
+              AGENTS, REPRESENTATIVES, SUPPLIERS OR CONTRACTORS WILL BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL,
               INCIDENTAL, INTANGIBLE OR CONSEQUENTIAL LOSSES OR DAMAGES ARISING OUT OF OR RELATING TO: ANY
               PERFORMANCE OR NON-PERFORMANCE OF THE SERVICES, OR ANY OTHER PRODUCT, SERVICE OR OTHER ITEM PROVIDED
-              BY OR ON BEHALF OF GOOSEFX OR ITS AFFILIATES; ANY AUTHORIZED OR UNAUTHORIZED USE OF THE WEBSITE OR
+              BY OR ON BEHALF OF FINANCITY OR ITS AFFILIATES; ANY AUTHORIZED OR UNAUTHORIZED USE OF THE WEBSITE OR
               SERVICES, OR IN CONNECTION WITH THIS AGREEMENT; ANY INACCURACY, DEFECT OR OMISSION OF ANY DATA OR
               INFORMATION ON THE WEBSITE; ANY ERROR, DELAY OR INTERRUPTION IN THE TRANSMISSION OF SUCH DATA; ANY
               DAMAGES INCURRED BY ANY ACTIONS, OMISSIONS OR VIOLATIONS OF THESE TERMS BY ANY THIRD PARTIES; OR ANY
-              DAMAGE CAUSED BY ILLEGAL ACTIONS OF OTHER THIRD PARTIES OR ACTIONS WITHOUT AUTHORIZED BY GOOSEFX.
-              EVEN IF GOOSEFX KNEW OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES AND NOTWITHSTANDING THE
-              FAILURE OF ANY AGREED OR OTHER REMEDY OF ITS ESSENTIAL PURPOSE, EXCEPT TO THE EXTENT OF A FINAL
+              DAMAGE CAUSED BY ILLEGAL ACTIONS OF OTHER THIRD PARTIES OR ACTIONS WITHOUT AUTHORIZED BY FINANCITY.
+              EVEN IF FINANCITY KNEW OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES AND NOTWITHSTANDING
+              THE FAILURE OF ANY AGREED OR OTHER REMEDY OF ITS ESSENTIAL PURPOSE, EXCEPT TO THE EXTENT OF A FINAL
               JUDICIAL DETERMINATION THAT SUCH DAMAGES WERE A RESULT OF OUR GROSS NEGLIGENCE, ACTUAL FRAUD, WILLFUL
               MISCONDUCT OR INTENTIONAL VIOLATION OF LAW OR EXCEPT IN JURISDICTIONS THAT DO NOT ALLOW THE EXCLUSION
               OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES. THIS PROVISION WILL SURVIVE THE TERMINATION OF
@@ -307,7 +307,7 @@ export const TermsOfService: FC<{
               unregistered trademarks, design rights, unregistered designs, database rights and all other present
               and future intellectual property rights and rights in the nature of intellectual property rights that
               exist in or in relation to the use and access of the Website and the Services are owned by or
-              otherwise licensed to GooseFX. Subject to your compliance with these Terms, we grant you a
+              otherwise licensed to FINANCITY. Subject to your compliance with these Terms, we grant you a
               non-exclusive, non-sub license, and any limited license to merely use or access the Website and the
               Services in the permitted hereunder. Except as expressly stated in these Terms, nothing in these
               Terms should be construed as conferring any right in or license to our or any other third party’s
@@ -325,25 +325,25 @@ export const TermsOfService: FC<{
 
             <h3>Independent Parties</h3>
             <p>
-              GooseFX is an independent contractor but not an agent of you in the performance of these Terms. These
-              Terms shall not be interpreted as facts or evidence of an association, joint venture, partnership or
-              franchise between the parties.
+              FinanCity is an independent contractor but not an agent of you in the performance of these Terms.
+              These Terms shall not be interpreted as facts or evidence of an association, joint venture,
+              partnership or franchise between the parties.
             </p>
             <br />
 
             <h3>Indemnification</h3>
             <p>
-              You agree to indemnify and hold harmless GooseFX and its affiliates and their respective
+              You agree to indemnify and hold harmless FinanCity and its affiliates and their respective
               shareholders, members, directors, officers, employees, attorneys, agents, representatives, suppliers
               or contractors from and against any potential or actual claims, actions, proceedings, investigations,
               demands, suits, costs, expenses and damages (including attorneys’ fees, fines or penalties imposed by
               any regulatory authority) arising out of or related to: your use of, or conduct in connection with,
               the Website or Services; your breach or our enforcement of these Terms; or your violation of any
               applicable law, regulation, or rights of any third party during your use of the Website or Services.
-              If you are obligated to indemnify GooseFX and its affiliates and their respective shareholders,
+              If you are obligated to indemnify FinanCity and its affiliates and their respective shareholders,
               members, directors, officers, employees, attorneys, agents, representatives, suppliers or contractors
-              pursuant to these Terms, GooseFX will have the right, in its sole discretion, to control any action
-              or proceeding and to determine whether GooseFX wishes to settle, and if so, on what terms. Your
+              pursuant to these Terms, FinanCity will have the right, in its sole discretion, to control any action
+              or proceeding and to determine whether FinanCity wishes to settle, and if so, on what terms. Your
               obligations under this indemnification provision will continue even after these Terms have expired or
               been terminated.
             </p>
@@ -351,18 +351,18 @@ export const TermsOfService: FC<{
 
             <h3>Confidentiality</h3>
             <p>
-              You acknowledge that the Services contain GooseFX’s and its affiliates’ trade secrets and
+              You acknowledge that the Services contain FinanCity's and its affiliates’ trade secrets and
               confidential information. You agree to hold and maintain the Services in confidence, and not to
               furnish any other person any confidential information of the Services or the Website. You agree to
               use a reasonable degree of care to protect the confidentiality of the Services. You will not remove
-              or alter any of GooseFX’s or its affiliates’ proprietary notices. Your obligations under this
+              or alter any of FinanCity's or its affiliates’ proprietary notices. Your obligations under this
               provision will continue even after these Terms have expired or been terminated.
             </p>
             <br />
 
             <h3>Anti-Money Laundering</h3>
             <p>
-              GooseFX expressly prohibits and rejects the use of the Website or the Services for any form of
+              FinanCity expressly prohibits and rejects the use of the Website or the Services for any form of
               illicit activity, including money laundering, terrorist financing or trade sanctions violations. By
               using the Website or the Services, you represent that you are not involved in any such activity.
             </p>
@@ -370,7 +370,7 @@ export const TermsOfService: FC<{
 
             <h3>Force Majeure</h3>
             <p>
-              GOOSEFX shall have no liability to you if it is prevented from or delayed in performing its
+              FINANCITY shall have no liability to you if it is prevented from or delayed in performing its
               obligations or from carrying on its Services and business, by acts, events, omissions or accidents
               beyond its reasonable control, including, without limitation, strikes, failure of a utility service
               or telecommunications network, act of God, war, riot, civil commotion, malicious damage, compliance
@@ -414,15 +414,15 @@ export const TermsOfService: FC<{
             <p>
               All notices, requests, demands, and determinations for us under these Terms (other than routine
               operational communications) shall be sent to{' '}
-              <GFX_LINK href="mailto:contact@goosefx.io">contact@goosefx.io</GFX_LINK>.
+              <GFX_LINK href="mailto:contact@financity.io">contact@financity.io</GFX_LINK>.
             </p>
             <br />
 
             <h3>Assignment</h3>
             <p>
               You may not assign or transfer any right to use the Services or any of your rights or obligations
-              under these Terms without prior written consent from GooseFX, including any right or obligation
-              related to the enforcement of laws or the change of control. GooseFX may assign or transfer any or
+              under these Terms without prior written consent from FinanCity, including any right or obligation
+              related to the enforcement of laws or the change of control. FinanCity may assign or transfer any or
               all of its rights or obligations under these Terms, in whole or in part, without notice or obtaining
               your consent or approval.
             </p>
@@ -448,7 +448,7 @@ export const TermsOfService: FC<{
                 ASSOCIATED WITH TRANSACTIONS OF ENCRYPTED OR DIGITAL TOKENS OR CRYPTOCURRENCIES WITH A CERTAIN
                 VALUE THAT ARE BASED ON BLOCKCHAIN AND CRYPTOGRAPHY TECHNOLOGIES AND ARE ISSUED AND MANAGED IN A
                 DECENTRALIZED FORM (“DIGITIAL CURRENCIES”); (B) YOU SHALL ASSUME ALL RISKS RELATED TO THE USE OF
-                THE SERVICES AND TRANSACTIONS OF DIGITAL CURRENCIES; AND (C) GOOSEFX SHALL NOT BE LIABLE FOR ANY
+                THE SERVICES AND TRANSACTIONS OF DIGITAL CURRENCIES; AND (C) FINANCITY SHALL NOT BE LIABLE FOR ANY
                 SUCH RISKS OR ADVERSE OUTCOMES. AS WITH ANY ASSET, THE VALUES OF DIGITAL CURRENCIES ARE VOLATILE
                 AND MAY FLUCTUATE SIGNIFICANTLY AND THERE IS A SUBSTANTIAL RISK OF ECONOMIC LOSS WHEN PURCHASING,
                 HOLDING OR INVESTING IN DIGITAL CURRENCIES.
@@ -462,7 +462,7 @@ export const TermsOfService: FC<{
 
       <CONFIRM>
         <TOS_CHECKBOX checked={checked} onChange={(e) => setChecked(e.target.checked)}>
-          I agree to GooseFX terms and conditions and protocol disclaimer.
+          I agree to FinanCity terms and conditions and protocol disclaimer.
         </TOS_CHECKBOX>
         <MAINBUTTON onClick={accept} disabled={!checked} checked={checked}>
           <span>Continue</span>

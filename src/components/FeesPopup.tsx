@@ -183,7 +183,7 @@ export const FeesPopup: FC<{ rewardModal?; rewardToggle?; modalType }> = ({ rewa
             )}
           </div>
         </div>
-        <div className="third-row">*Disclaimer: Spot fees for GooseFx are subject to change.</div>
+        <div className="third-row">*Disclaimer: Spot fees for FinanCity are subject to change.</div>
       </HEADER>
       <Table dataSource={dataSource} rowSelection={null}>
         <Column dataIndex="feeTier" key="feeTier" title="Fee Tier" />

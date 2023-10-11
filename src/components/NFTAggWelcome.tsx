@@ -170,8 +170,9 @@ export const GFXApprisalPopup: FC<{ showTerms: boolean; setShowTerms: any }> = (
             For individual assets in a collection
           </h3>
           <div className="subText">
-            Using the GFX Appraisal Engine, navigate the NFT Market with confidence. Our unique appraisal engine
-            focuses on actual sales data, ensuring you receive precise, data-driven valuations for your NFTs.
+            Using the FinanCity Appraisal Engine, navigate the NFT Market with confidence. Our unique appraisal
+            engine focuses on actual sales data, ensuring you receive precise, data-driven valuations for your
+            NFTs.
           </div>
         </div>
       </WRAPPER>
@@ -235,9 +236,9 @@ export const NFTAggWelcome = ({ showTerms, setShowPopup }: any) => {
                 />
                 <h3 tw="!text-[15px] font-semibold">*For individual assets in a collection</h3>
                 <div className="subText">
-                  Using the GFX Appraisal Engine, navigate the NFT Market with confidence. Our unique appraisal
-                  engine focuses on actual sales data, ensuring you receive precise, data-driven valuations for
-                  your NFTs.
+                  Using the FinanCity Appraisal Engine, navigate the NFT Market with confidence. Our unique
+                  appraisal engine focuses on actual sales data, ensuring you receive precise, data-driven
+                  valuations for your NFTs.
                 </div>
               </div>
             )}
