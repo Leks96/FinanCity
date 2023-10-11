@@ -92,7 +92,7 @@ export const FarmHeader: FC = () => {
         <div tw="flex w-full justify-center items-center mb-2">
           <img src={`/img/assets/georestricted_${mode}.svg`} alt="geoblocked-icon" />
           <div tw="ml-2 text-tiny font-semibold dark:text-grey-5 text-grey-1">
-            GooseFX Farm is unavailable <br /> in your location.
+            FinanCity Farm is unavailable <br /> in your location.
           </div>
         </div>
       )}

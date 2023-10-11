@@ -318,7 +318,7 @@ const NoResultsFound: FC<{ str?: string; subText?: string; requestPool?: boolean
             tw="w-[219px] h-8.75 cursor-pointer flex items-center justify-center mt-4 text-regular 
             rounded-[30px] font-semibold bg-gradient-1"
           >
-            <a href="https://discord.gg/cDEPXpY26q" tw="font-semibold" target="_blank" rel="noreferrer">
+            <a href="https://discord.gg/" tw="font-semibold" target="_blank" rel="noreferrer">
               Request Pool
             </a>
           </address>

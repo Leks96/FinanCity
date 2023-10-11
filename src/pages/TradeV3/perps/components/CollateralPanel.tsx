@@ -320,7 +320,7 @@ const Fees = () => {
           {currentTier.taker} Taker / {currentTier.maker} Maker
         </span>
       </div>
-      <div className="disclaimer">*Disclaimer: Perps fees for GooseFx are subject to change.</div>
+      <div className="disclaimer">*Disclaimer: Perps fees for FinanCity are subject to change.</div>
       {feesInfo &&
         feesInfo.map((item, index) => (
           <Row key={index}>
