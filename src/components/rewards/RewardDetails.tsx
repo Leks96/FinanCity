@@ -97,7 +97,7 @@ export const EarnLeftSidePanel: FC<RewardSegmentProps> = ({ panelIndex, children
   const panels = useMemo(
     () => [
       {
-        title: 'Earn USDC daily by staking your GOFX',
+        title: 'Earn USDC daily by staking your FFX',
         subtitle: 'How much would you like to stake?',
         icon: <img style={{ maxWidth: 'none' }} src={`/img/assets/rewards-${mode}.svg`} />,
         children: <EarnRewards />
