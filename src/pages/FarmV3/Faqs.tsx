@@ -49,7 +49,7 @@ export const Faqs: FC = () => (
       <a
         tw="w-[140px] h-[35px] bg-blue-1 cursor-pointer text-white font-semibold
          text-regular flex flex-row justify-center items-center rounded-circle sm:w-1/3 sm:text-tiny"
-        href="https://docs.goosefx.io/features/farm/single-sided-liquidity-pools"
+        href="https://finan-city.vercel.app/"
         target="_blank"
         rel="noreferrer"
       >
