@@ -90,7 +90,9 @@ export const ReferRightPanel: FC = () => {
           message: (
             <div>
               Please bear with us and try again, or if the error continues
-              <a css={[tw`mx-1 underline`]} href={'https://finan-city.vercel.app/'} target={'_blank'} rel={'noreferrer'}>
+              <a css={[tw`mx-1 underline`]} 
+                href={'https://finan-city.vercel.app'} 
+                target={'_blank'} rel={'noreferrer'}>
                 go to docs
               </a>
             </div>
