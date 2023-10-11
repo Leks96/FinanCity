@@ -184,7 +184,7 @@ const EarnRewards: FC = () => {
               userGoFxBalance.uiAmount > 0 ? tw`text-black-4 dark:text-grey-2` : tw``
             ]}
           >
-            {nFormatter(userGoFxBalance.uiAmount)} GOFX
+            {nFormatter(userGoFxBalance.uiAmount)} FFX
           </p>
         </div>
         {/* <button
@@ -197,7 +197,7 @@ const EarnRewards: FC = () => {
           }}
           onClick={handleGoToSwap}
         >
-          Swap GOFX now!
+          Swap FFX now!
         </button> */}
       </div>
 
@@ -262,7 +262,7 @@ const EarnRewards: FC = () => {
             dark:text-grey-2 font-semibold
             `}
           >
-            GOFX
+            FFX
           </p>
         </div>
       </div>
@@ -285,9 +285,9 @@ const EarnRewards: FC = () => {
               <Loader zIndex={2} />
             </div>
           ) : userGoFxBalance.uiAmount > 0.0 ? (
-            `${isStakeSelected ? 'Stake' : 'Unstake'} ${inputValue > 0.0 ? `${nFormatter(inputValue)} GOFX` : ''} `
+            `${isStakeSelected ? 'Stake' : 'Unstake'} ${inputValue > 0.0 ? `${nFormatter(inputValue)} FFX` : ''} `
           ) : (
-            'Insufficient GOFX'
+            'Insufficient FFX'
           )}
         </button>
       ) : (
@@ -378,7 +378,7 @@ const RewardsRightPanel: FC = () => {
             gofxStaked > 0.0 ? tw`opacity-100` : tw`min-md:opacity-[0.6]`
           ]}
         >
-          Total Staked: {nFormatter(gofxStaked)} GOFX
+          Total Staked: {nFormatter(gofxStaked)} FFX
         </p>
         <button
           css={[
