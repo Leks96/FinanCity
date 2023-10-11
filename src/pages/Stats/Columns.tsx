@@ -161,7 +161,7 @@ export const ColumnHeadersWeb: FC<{ screenType: number }> = ({ screenType }) => 
           color={mode === 'dark' ? '#EEEEEE' : '#3C3C3C'}
           title={
             <span tw="dark:text-black-4 text-grey-5 font-medium text-tiny">
-              Hold an SMB NFT and earn loyalty for more points.
+              Hold an FFX NFT and earn loyalty for more points.
             </span>
           }
           overlayClassName={mode === 'dark' ? 'dark leaderboard-tooltip' : 'leaderboard-tooltip'}
@@ -277,7 +277,7 @@ export const HowToEarn: FC<{
               />
               <div className="subText">
                 {screenType === 2
-                  ? 'List your NFT’s exclusively on GooseFX, the more you list the more points you will earn.'
+                  ? 'List your NFT’s exclusively on Finan City, the more you list the more points you will earn.'
                   : 'Your PnL% reflects your return on investment, calculated using the current market' +
                     'price of your assets and your net deposits.'}
               </div>
@@ -306,7 +306,7 @@ export const HowToEarn: FC<{
               />
               <div className="subText">
                 {screenType === 2
-                  ? 'Bid for NFT’s exclusively on GooseFX, the more you bid or accept bids the more points you earn.'
+                  ? 'Bid for NFT’s exclusively on Finan City, the more you bid or accept bids the more points you earn.'
                   : 'Earn loyalty points based on your trading volume and frequency.' +
                     "If you don't make at least 2 trades within a week, your loyalty score will decay by 10%"}
               </div>
@@ -331,7 +331,7 @@ export const HowToEarn: FC<{
               <div className="subText">
                 {screenType === 2 ? (
                   <div className={mode === 'lite' ? 'space' : ''}>
-                    Purchase NFTs directly on GooseFX to earn points, more closer to the floor, more points you
+                    Purchase NFTs directly on Finan City to earn points, more closer to the floor, more points you
                     earn.
                   </div>
                 ) : (
@@ -368,7 +368,7 @@ export const HowToEarn: FC<{
               )}
               <div className="subText">
                 {screenType === 2
-                  ? 'Maintain consistent activity on GooseFX to improve your loyalty score and stay within the top 50' +
+                  ? 'Maintain consistent activity on Finan City to improve your loyalty score and stay within the top 50' +
                     'users in 24H awards a daily boost.'
                   : 'Top 20 traders are eligible to claim rewards every 14 days. Trade your' +
                     'way to the top for the main reward.'}
